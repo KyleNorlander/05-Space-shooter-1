@@ -101,10 +101,8 @@ class Window(arcade.Window):
                 d.kill()
                 if p.hp <= 0:
                     p.kill()
-        pass
 
     def on_draw(self):
-        """ Called whenever we need to draw the window. """
         arcade.start_render()
         arcade.draw_text(str(self.score), 20, SCREEN_HEIGHT - 40, open_color.white, 16)
         self.player_list.draw()
@@ -115,7 +113,6 @@ class Window(arcade.Window):
 
 
     def on_mouse_motion(self, x, y, dx, dy):
-        """ Called to update our objects. Happens approximately 60 times per second."""
         self.player.center_x = x
         pass
 
@@ -125,33 +122,9 @@ class Window(arcade.Window):
             y = self.player.center_y + 50
             bullet = Bullet((x,y),(0,10),BULLET_DAMAGE)
             self.bullet_list.append(bullet)
-            
-        pass
-
-    def on_mouse_release(self, x, y, button, modifiers):
-        """
-        Called when a user releases a mouse button.
-        """
-        pass
-
-    def on_key_press(self, key, modifiers):
-        """ Called whenever the user presses a key. """
-        if key == arcade.key.LEFT:
-            print("Left")
-        elif key == arcade.key.RIGHT:
-            print("Right")
-        elif key == arcade.key.UP:
-            print("Up")
-        elif key == arcade.key.DOWN:
-            print("Down")
-
-    def on_key_release(self, key, modifiers):
-        """ Called whenever a user releases a key. """
-        pass
-
-
 def main():
     window = Window(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+    window.setup()
     arcade.run()
 
 

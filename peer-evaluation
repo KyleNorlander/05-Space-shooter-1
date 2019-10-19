@@ -1,0 +1,38 @@
+Name: Kyle Norlander
+Date:10/19/2019
+Project: Space Shooters
+Peer's repository: https://github.com/tannerbender/05-Space-shooter
+
+
+
+What is something you learned by reviewing your peer's project? I think you could have found some more assets or a background picture as opposed to the blank background. 
+
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects? I saw you had good positioning for your bullets spawn in relation to the players ship, maybe copy/paste the fire function and make a twin cannon for your ship (Switch the left and right mouse clicks.)
+
+ 
+
+What suggestions would you have for your peer to improve his/her code? End game when you die, you can still shoot after you lose. Show a proper screen.
+
+ 
+
+What could have been clearer or better commented? It was well commented.
+
+ 
+
+Was there anything in the code that was confusing to you? If so, what? No, everything seems to run in order. 
+
+ 
+
+Does the repository contain an appropriate LICENSE? Yes there is an appropriate license 
+
+ 
+
+What is something he/she could add to the README.md to make it more descriptive? I think the README.md decribed everything the player was to expect. 
+
+ 
+
+Pay a compliment to your peer based on the quality of his/her code. Good job on getting the enemy to fire back.
+
+
